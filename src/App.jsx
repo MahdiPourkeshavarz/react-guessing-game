@@ -25,7 +25,7 @@ function App() {
     setResults(newResults);
 
     const isallTrue = newResults.every((element) => {
-      if (element === newResults[0]) {
+      if (element === "green") {
         return true
       }
     })
